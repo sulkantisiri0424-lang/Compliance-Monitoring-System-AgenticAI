@@ -1,0 +1,31 @@
+{
+  "regulations": [
+    {
+      "id": "REG001",
+      "name": "High Value Transaction Rule",
+      "description": "Transactions above 100000 require additional compliance review.",
+      "threshold": 100000,
+      "severity": "MEDIUM"
+    },
+    {
+      "id": "REG002",
+      "name": "Very High Value Transaction Rule",
+      "description": "Transactions above 500000 require enhanced monitoring.",
+      "threshold": 500000,
+      "severity": "HIGH"
+    },
+    {
+      "id": "REG003",
+      "name": "International Transaction Rule",
+      "description": "Large international transactions require enhanced monitoring.",
+      "threshold": 50000,
+      "severity": "MEDIUM"
+    },
+    {
+      "id": "REG004",
+      "name": "Restricted Country Rule",
+      "description": "Transactions involving restricted countries require compliance review.",
+      "severity": "HIGH"
+    }
+  ]
+}
