@@ -1,0 +1,32 @@
+{
+  "transactions": [
+    {
+      "transaction_id": "TXN1001",
+      "customer_name": "Rahul Sharma",
+      "amount": 25000,
+      "country": "India",
+      "transaction_type": "Domestic"
+    },
+    {
+      "transaction_id": "TXN1002",
+      "customer_name": "Priya Reddy",
+      "amount": 150000,
+      "country": "India",
+      "transaction_type": "Domestic"
+    },
+    {
+      "transaction_id": "TXN1003",
+      "customer_name": "Arjun Kumar",
+      "amount": 750000,
+      "country": "USA",
+      "transaction_type": "International"
+    },
+    {
+      "transaction_id": "TXN1004",
+      "customer_name": "Neha Singh",
+      "amount": 200000,
+      "country": "Iran",
+      "transaction_type": "International"
+    }
+  ]
+}
