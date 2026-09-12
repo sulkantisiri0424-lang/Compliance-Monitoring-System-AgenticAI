@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Compliance Monitoring System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🤖 Compliance Monitoring System</h1>
+        <p>Agentic AI Powered Compliance Analysis</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+
+            <h2>Transaction Analysis</h2>
+
+            <form id="transactionForm">
+
+                <label>Transaction ID</label>
+                <input
+                    type="text"
+                    id="transaction_id"
+                    placeholder="Example: TXN1005"
+                    required
+                >
+
+                <label>Customer Name</label>
+                <input
+                    type="text"
+                    id="customer_name"
+                    placeholder="Enter customer name"
+                    required
+                >
+
+                <label>Transaction Amount</label>
+                <input
+                    type="number"
+                    id="amount"
+                    placeholder="Enter amount"
+                    required
+                >
+
+                <label>Country</label>
+                <input
+                    type="text"
+                    id="country"
+                    placeholder="Example: India"
+                    required
+                >
+
+                <label>Transaction Type</label>
+
+                <select id="transaction_type">
+
+                    <option value="Domestic">
+                        Domestic
+                    </option>
+
+                    <option value="International">
+                        International
+                    </option>
+
+                </select>
+
+                <button type="submit">
+                    Analyze Transaction
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>Compliance Result</h2>
+
+            <div id="loading">
+                Enter transaction details and click
+                <b>Analyze Transaction</b>.
+            </div>
+
+            <div id="result"></div>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>Agent Workflow</h2>
+
+            <div class="workflow">
+
+                <div>🔎 Regulation Agent</div>
+                <div>💳 Transaction Agent</div>
+                <div>⚠️ Risk Agent</div>
+                <div>📄 Report Agent</div>
+                <div>📝 Audit Agent</div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Compliance Monitoring System |
+            Agentic AI Project
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
